@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target : Expect More. Pay Less.</title>
+    <link rel="stylesheet" href="target.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+
+</head>
+
+<body>
+    <nav>
+        <div class="main_nav">
+            <div class="navigation nav_left">
+                <div class="align">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <path
+                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                    </svg>Ship to 38005
+                </div>
+                <div class="align">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-buildings" viewBox="0 0 16 16">
+                        <path
+                            d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022M6 8.694 1 10.36V15h5zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5z" />
+                        <path
+                            d="M2 11h1v1H2zm2 0h1v1H4zm-2 2h1v1H2zm2 0h1v1H4zm4-4h1v1H8zm2 0h1v1h-1zm-2 2h1v1H8zm2 0h1v1h-1zm2-2h1v1h-1zm0 2h1v1h-1zM8 7h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zM8 5h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zm0-2h1v1h-1z" />
+                    </svg>
+                    Select your store
+                </div>
+            </div>
+            <div class="navigation">
+                <a href="" class="anchor">Target Circle™</a>
+                <a href="" class="anchor">Target Circle™ Card</a>
+                <a href="" class="anchor">Target Circle 360™</a>
+                <a href="" class="anchor">Registry & Wish List</a>
+                <a href="" class="anchor">Weekly Ad</a>
+                <a href="" class="anchor">Find Stores</a>
+            </div>
+        </div>
+    </nav>
+    <nav class="sec_nav">
+        <img src="https://www.target.com/icons/light/BullseyeRed.svg#BullseyeRed" alt="">
+        <a href="">Categories</a>
+        <a href="">Deals</a>
+        <a href="">New & featured</a>
+        <a href="">Pickup & delivery</a>
+
+        <div class="input">
+            <input type="text" placeholder="What can we help you find?" name="input">
+            <div class="icons">
+                <a href=""><img
+                        src="data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nOCcgaGVpZ2h0PScxMicgdmlld0JveD0nMCAwIDggMTInIGZpbGw9J25vbmUnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PHBhdGggZD0nTTAuODg4ODggNS40NDI3OEwwLjg5MTY2IDYuMDc0NzdDMC44ODkyMSA3LjY0MzYgMi4yMTE2IDguODg4ODkgNCA4Ljg4ODg5QzUuNzQxMDggOC44ODg4OSA3LjA0MTE1IDcuNzA4NDEgNy4xMDgzNyA2LjE5NzNMNy4xMTExMSA2LjA3NDA3VjUuNDQ0NzRIOFY2LjA3NDA3QzggOC4wMDk0NyA2LjQ4OTg0IDkuNTU5MjkgNC40NDQyMSA5Ljc1NjU2TDQuNDQ0NDQgMTJIMy41NTU1NUwzLjU1NTA4IDkuNzU2NDlDMS41NTY5MiA5LjU2MzUxIDAuMDcwMzQ3NyA4LjA4MDE3IDAuMDA1MDEzMDggNi4yMTA0MkwwLjAwMjc3NTk3IDYuMDc2MDNMMCA1LjQ0NjdMMC44ODg4OCA1LjQ0Mjc4Wk00IDBDNS4wNjM2NSAwIDUuOTI1OTIgMC44NjIyNjYgNS45MjU5MiAxLjkyNTkzVjUuNzc3NzhDNS45MjU5MiA2Ljg0MTQ0IDUuMDYzNjUgNy43MDM3IDQgNy43MDM3QzIuOTM2MzQgNy43MDM3IDIuMDc0MDcgNi44NDE0NCAyLjA3NDA3IDUuNzc3NzhWMS45MjU5M0MyLjA3NDA3IDAuODYyMjY2IDIuOTM2MzQgMCA0IDBaJyBmaWxsPScjNjY2NjY2Jy8+PC9zdmc+Cg=="
+                        class="mic" alt=""></a>
+                <a href=""><img class="search"
+                        src="data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0nMjQnIGhlaWdodD0nMjQnIHZpZXdCb3g9JzAgMCAyNCAyNCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB4bWxuczp4bGluaz0naHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluaycgZm9jdXNhYmxlPSdmYWxzZSc+PGRlZnM+PHBhdGggZD0nTTEwLjI1IDIuNzVhNy41MDEgNy41MDEgMCAwMTUuODA2IDEyLjI0N2w1LjQxMiA1LjQxLTEuMDYgMS4wNi01LjQxMS01LjQxQTcuNTAxIDcuNTAxIDAgMTExMC4yNSAyLjc1em0wIDEuNWE2LjAwMSA2LjAwMSAwIDAwMCAxMiA2LjAwMSA2LjAwMSAwIDAwMC0xMnonIGlkPSduZHMtSWNvbjExMmEnIGZpbGw9JyM2NjYnPjwvcGF0aD48L2RlZnM+PHVzZSB4bGluazpocmVmPScjbmRzLUljb24xMTJhJz48L3VzZT48L3N2Zz4="
+                        alt=""></a>
+
+            </div>
+        </div>
+
+        <div class="sign_in">
+            <a href=""><img class="sign" src="https://www.target.com/icons/Account.svg#Account" alt=""></a>
+            <a href="" class="sign_text"><span class="sign">Sign in</span></a>
+        </div>
+        <a href=""><img class="sign" src="https://www.target.com/icons/Cart.svg#Cart" alt="" srcset=""></a>
+    </nav>
+    <div class="body">
+        <div class="hero">
+            <div class="hero_banner">
+                <a href="" class="anchor">Get Halloween candy, costumes & more <br> with same-day delivery or
+                    pickup.</a>
+            </div>
+
+        </div>
+        <div class="hero_buttons">
+
+            <div class="trick_or_treat styling">
+                <p> Sale from</p>
+
+                <div class="sale">
+                    <p class="five">5</p>
+                    <p class="ninety_nine">99</p>
+                </div>
+
+            </div>
+            <div class="costumes styling">
+            </div>
+            <div class="fright styling">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="body">
+
+        <div class="candy_green">
+            <div class="candy_head">
+                <h2>Don’t forget the trick-or-treat candy</h2>
+            </div>
+            <div class="alignment">
+                <a href="" class="product">
+                    <img src="https://target.scene7.com/is/image/Target/GUEST_971c81c2-1cee-44be-9788-58dae2bc3b21"
+                        alt="" srcset="">
+                    <p class="price_tag">$24.99</p>
+                    <div class="deals">
+                        <img src="https://www.target.com/icons/light/CircleDeals.svg" alt="">
+                        <p>$19.99 price on...</p>
+                    </div>
+                    <p>Hershey's Milk<br>Chocolate Assorted...
+                    </p>
+                    <div class="button">
+                        Add to cart
+                    </div>
+
+                </a>
+
+                <a href="" class="product">
+                    <img src="https://target.scene7.com/is/image/Target/GUEST_9b05be96-ddc5-4004-8ab8-0bdff8032a2c"
+                        alt="" srcset="">
+                    <p class="price_tag">$24.99</p>
+                    <div class="deals">
+                        <img src="https://www.target.com/icons/light/CircleDeals.svg" alt="">
+                        <p>$19.99 price on...</p>
+                    </div>
+                    <p>Hershey's Milk<br>Chocolate Assorted...
+                    </p>
+                    <div class="button">
+                        Add to cart
+                    </div>
+
+                </a> <a href="" class="product">
+                    <img src="https://target.scene7.com/is/image/Target/GUEST_b8c408e3-14f2-4a56-85d8-2252469e83e9"
+                        alt="" srcset="">
+                    <p class="price_tag">$24.99</p>
+                    <div class="deals">
+                        <img src="https://www.target.com/icons/light/CircleDeals.svg" alt="">
+                        <p>$19.99 price on...</p>
+                    </div>
+                    <p>Hershey's Milk<br>Chocolate Assorted...
+                    </p>
+                    <div class="button">
+                        Add to cart
+                    </div>
+
+                </a> <a href="" class="product">
+                    <img src="https://target.scene7.com/is/image/Target/GUEST_e081c483-783e-46e7-858d-227ee09641f1"
+                        alt="" srcset="">
+                    <p class="price_tag">$24.99</p>
+                    <div class="deals">
+                        <img src="https://www.target.com/icons/light/CircleDeals.svg" alt="">
+                        <p>$19.99 price on...</p>
+                    </div>
+                    <p>Hershey's Milk<br>Chocolate Assorted...
+                    </p>
+                    <div class="button">
+                        Add to cart
+                    </div>
+
+                </a> <a href="" class="product">
+                    <img src="https://target.scene7.com/is/image/Target/GUEST_7cabf274-cde6-4357-86a5-c6ead03802ce"
+                        alt="" srcset="">
+                    <p class="price_tag">$24.99</p>
+                    <div class="deals">
+                        <img src="https://www.target.com/icons/light/CircleDeals.svg" alt="">
+                        <p>$19.99 price on...</p>
+                    </div>
+                    <p>Hershey's Milk<br>Chocolate Assorted...
+                    </p>
+                    <div class="button">
+                        Add to cart
+                    </div>
+
+                </a> <a href="" class="product">
+                    <img src="https://target.scene7.com/is/image/Target/GUEST_e081c483-783e-46e7-858d-227ee09641f1"
+                        alt="" srcset="">
+                    <p class="price_tag">$24.99</p>
+                    <div class="deals">
+                        <img src="https://www.target.com/icons/light/CircleDeals.svg" alt="">
+                        <p>$19.99 price on...</p>
+                    </div>
+                    <p>Hershey's Milk<br>Chocolate Assorted...
+                    </p>
+                    <div class="button">
+                        Add to cart
+                    </div>
+
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="blue">
+            <a href="">
+                <div class="pro">
+                    <div class="winter decor">
+                        <p class="from">From</p>
+
+                        <div class="sale">
+                            <p class="dollar">$</p>
+                            <p class="five">5</p>
+                        </div>
+                    </div>
+                    Decor
+                </div>
+            </a>
+            <a href="">
+                <div class="pro">
+                    <div class="winter tree">
+                        <p class="from">From</p>
+
+                        <div class="sale">
+                            <p class="dollar">$</p>
+                            <p class="five">55</p>
+                        </div>
+                    </div>
+                    Christmas Trees
+                </div>
+            </a>
+            <a href="">
+                <div class="pro">
+                    <div class="winter woman_baby">
+                        <p class="from">From</p>
+
+                        <div class="sale">
+                            <p class="dollar">$</p>
+                            <p class="five">10</p>
+                        </div>
+                    </div>
+                    Matching holiday <br>pajamas for all
+                </div>
+            </a>
+            <a href="">
+                <div class="pro">
+                    <div class="winter lights">
+                        <p class="from">From</p>
+
+                        <div class="sale">
+                            <p class="dollar">$</p>
+                            <p class="five">3</p>
+                        </div>
+                    </div>
+                    Lights
+                </div>
+            </a>
+
+        </div>
+        <a href="" class="anchor">
+            <div class="gift_ideas">
+
+                <div class="idea_head">Gift ideas for kids</div><br>
+
+                <div>Need a little inspo? We’ve got you <br>covered with fun for all. </div>
+
+            </div>
+
+        </a>
+        <div class="grocery">
+            <div class="candy_head">
+                <h2>Trending in grocery</h2>
+            </div>
+            <div class="alignment">
+                <a href="" class="product">
+                    <img src="https://target.scene7.com/is/image/Target/GUEST_c5e9da4a-023e-4a79-83d0-f8ad47c42093"
+                        alt="" srcset="">
+                    <p class="price_tag">$24.99</p>
+
+                    <p>Hershey's Milk<br>Chocolate Assorted...
+                    </p>
+                    <div class="button">
+                        Add to cart
+                    </div>
+
+                </a>
+                <a href="" class="product">
+                    <img src="https://target.scene7.com/is/image/Target/GUEST_1b5d5b08-4dd9-4419-aaa0-70c0e3525b6a"
+                        alt="" srcset="">
+                    <p class="price_tag">$24.99</p>
+
+                    <p>Hershey's Milk<br>Chocolate Assorted...
+                    </p>
+                    <div class="button">
+                        Add to cart
+                    </div>
+
+                </a>
+                <a href="" class="product">
+                    <img src="https://target.scene7.com/is/image/Target/GUEST_836ff09c-d273-49c7-b980-f8baaa4a5175"
+                        alt="" srcset="">
+                    <p class="price_tag">$24.99</p>
+
+                    <p>Hershey's Milk<br>Chocolate Assorted...
+                    </p>
+                    <div class="button">
+                        Add to cart
+                    </div>
+
+                </a>
+                <a href="" class="product">
+                    <img src="https://target.scene7.com/is/image/Target/GUEST_c1510bf1-f52e-4860-853b-b588d1194500"
+                        alt="" srcset="">
+                    <p class="price_tag">$24.99</p>
+
+                    <p>Hershey's Milk<br>Chocolate Assorted...
+                    </p>
+                    <div class="button">
+                        Add to cart
+                    </div>
+
+                </a>
+                <a href="" class="product">
+                    <img src="https://target.scene7.com/is/image/Target/GUEST_274db489-4d2c-4039-8b8b-694e7a910a43"
+                        alt="" srcset="">
+                    <p class="price_tag">$24.99</p>
+                    <div class="deals">
+                        <img src="https://www.target.com/icons/light/CircleDeals.svg" alt="">
+                        <p>$19.99 price on...</p>
+                    </div>
+                    <p>Hershey's Milk<br>Chocolate Assorted...
+                    </p>
+                    <div class="button">
+                        Add to cart
+                    </div>
+
+                </a>
+                <a href="" class="product">
+                    <img src="https://target.scene7.com/is/image/Target/GUEST_11644308-4138-4a4e-bfd7-d4734aebfb5d"
+                        alt="" srcset="">
+                    <p class="price_tag">$24.99</p>
+
+                    <p>Hershey's Milk<br>Chocolate Assorted...
+                    </p>
+                    <div class="button">
+                        Add to cart
+                    </div>
+
+                </a>
+
+            </div>
+
+        </div>
+        <p class="text">Get ready to gather</p>
+        <div class="blue peach">
+
+            <a href="">
+                <div class="pro">
+                    <div class="winter john">
+
+                    </div>
+                    John Derian for Target
+                </div>
+                <p class="peach_para">
+                    Explore new vintage-inspired designs<br> for your Thanksgiving table.
+                </p>
+            </a>
+            <a href="">
+                <div class="pro">
+                    <div class="winter plates">
+                        <p class="from">Under</p>
+
+                        <div class="sale">
+                            <p class="dollar">$</p>
+                            <p class="five">20</p>
+                        </div>
+                    </div>
+                    Fall entertaining
+                </div>
+            </a>
+            <a href="">
+                <div class="pro">
+                    <div class="winter thanks_giving">
+
+                    </div>
+                    Thanksgiving <br>outfits
+                </div>
+                <p class="peach_para">for you, your sweet potato & couch <br>potato. </p>
+            </a>
+            <a href="">
+                <div class="pro">
+                    <div class="winter chicken">
+
+                    </div>
+                    Everything for <br> Thanksgiving
+                </div>
+                <p class="peach_para">Get it all at low prices.</p>
+            </a>
+
+        </div>
+        <div class="gift_heading">
+            <h1>
+                Save on, saver
+            </h1>
+        </div>
+
+        <div class="product new grid">
+            <div class="saver">
+
+                <div class="save">
+                    <div class="red">Up to</div>
+                    <div class="percent">
+                        <div class="">30</div>
+                        <div class="">
+                            <div class="symbol">%</div>
+                            <div class="off">off</div>
+                        </div>
+                    </div>
+                    <div>kitchen appliances*</div>
+                   
+                </div>
+                <img src="https://target.scene7.com/is/image/Target/GUEST_c4d97ae8-65a6-4682-a025-77f6b8f15b19?fmt=webp&qlt=80&wid=600"
+                    alt="">
+            </div>
+            <div class="saver">
+                <div class="save">
+                    <div class="red">Up to</div>
+                    <div class="percent">
+                        <div class="">30</div>
+                        <div class="">
+                            <div class="symbol">%</div>
+                            <div class="off">off</div>
+                        </div>
+                    </div>
+                    <div>kitchen appliances*</div>
+
+                </div>
+                <img src="https://target.scene7.com/is/image/Target/GUEST_7ab99bb8-cfb0-451d-ae9e-0f296b3926f3?fmt=webp&qlt=80&wid=600"
+                    alt="">
+            </div>
+            <div class="saver">
+                <div class="save"><div class="red">Up to</div>
+                <div class="percent">
+                    <div class="">30</div>
+                    <div class="">
+                        <div class="symbol">%</div>
+                        <div class="off">off</div>
+                    </div>
+                </div>
+                <div>kitchen appliances*</div></div>
+                <img src="https://target.scene7.com/is/image/Target/GUEST_c64e5216-f64a-4ebf-ae4d-0560eb437474?fmt=webp&qlt=80&wid=600"
+                    alt="">
+            </div>
+            <div class="saver">
+                <div class="save"><div class="red">Up to</div>
+                <div class="percent">
+                    <div class="">30</div>
+                    <div class="">
+                        <div class="symbol">%</div>
+                        <div class="off">off</div>
+                    </div>
+                </div>
+                <div>kitchen appliances*</div></div>
+                <img src="https://target.scene7.com/is/image/Target/GUEST_a80dd3e9-8d06-4f2e-9b73-5053d8d13892?fmt=webp&qlt=80&wid=600"
+                    alt="">
+            </div>
+            <div class="saver">
+                <div class="save"><div class="red">Up to</div>
+                <div class="percent">
+                    <div class="">30</div>
+                    <div class="">
+                        <div class="symbol">%</div>
+                        <div class="off">off</div>
+                    </div>
+                </div>
+                <div>kitchen appliances*</div></div>
+                <img src="https://target.scene7.com/is/image/Target/GUEST_a1ac1fac-7374-492b-80bb-bc1186b87587?fmt=webp&qlt=80&wid=600"
+                    alt="">
+            </div>
+            <div class="saver">
+                <div class="save"><div class="red">Up to</div>
+                <div class="percent">
+                    <div class="">30</div>
+                    <div class="">
+                        <div class="symbol">%</div>
+                        <div class="off">off</div>
+                    </div>
+                </div>
+                <div>kitchen appliances*</div></div>
+                <img src="https://target.scene7.com/is/image/Target/GUEST_8e49eb81-387b-4f04-8eec-a9e23f79d713?fmt=webp&qlt=80&wid=600"
+                    alt="">
+            </div>
+            <div class="saver">
+                <div class="save"><div class="red">Up to</div>
+                <div class="percent">
+                    <div class="">30</div>
+                    <div class="">
+                        <div class="symbol">%</div>
+                        <div class="off">off</div>
+                    </div>
+                </div>
+                <div>kitchen appliances*</div></div>
+                <img src="https://target.scene7.com/is/image/Target/GUEST_550ed9a5-1e5a-48c1-b05b-e3b4c4770489?fmt=webp&qlt=80&wid=600"
+                    alt="">
+            </div>
+            <div class="saver">
+                <div class="save">All the top deals in one place</div>
+                <img src="https://target.scene7.com/is/image/Target/GUEST_53242c4a-493c-4cb5-b765-4e77d42e21fd?fmt=webp&qlt=80&wid=600"
+                    alt="">
+            </div>
+
+        </div>
+
+
+
+        <div class="explore">
+            <div class="explore_head">Explore Target Circle™</div><br>
+
+            <span>The free & easy way to get the most deals, personalized bonuses, <br>
+                partner perks & more.</span>
+        </div>
+        <div class="latest">
+            Discover what’s new & now at Target.
+        </div>
+        <div class="new">
+            <div class="new_prod"><img
+                    src="https://target.scene7.com/is/image/Target/GUEST_eb2477ae-acfa-4ff4-9f78-c1fa64ea0e2f?fmt=webp&qlt=80&wid=400"
+                    alt="">
+                <div>Just dropped: Stanley & e.l.f.</div>
+                <p>New Quencher shades & tumbler lip oil holders <br> are here. Available online
+                    & in stores.</p>
+            </div>
+            <div class="new_prod"><img
+                    src="https://target.scene7.com/is/image/Target/GUEST_cdcad373-f1fc-4f9f-83d0-d174a86b04d4?fmt=webp&qlt=80&wid=400"
+                    alt="">
+                <div>Holiday hosting made easy</div>
+                <p>Everything you need to make overnight guests <br>feel right at home. </p>
+            </div>
+            <div class="new_prod"><img
+                    src="https://target.scene7.com/is/image/Target/GUEST_d0f79357-cde9-4725-a5e2-f16827654727?fmt=webp&qlt=80&wid=400"
+                    alt="">
+                <div>Awesome &amp; affordable(!) host gifts</div>
+                <p>Party season is here & these ideas are surefire <br> winners.</p>
+            </div>
+        </div>
+
+
+        <div class="popular alignment ">
+
+
+
+            <div class="pop_social">
+
+                Popular on <br> Social
+            </div>
+
+            <a href="" class="product">
+                <img src="https://target.scene7.com/is/image/Target/GUEST_1757f2d5-ce0a-4005-a753-06d95cb2d295" alt=""
+                    srcset="">
+                <p class="price_tag">$8.99</p>
+
+                <p>100% Pure Organic <br> Maple Syrup - 12 fl o...
+                </p>
+                <div class="button">
+                    Add to cart
+                </div>
+
+            </a><a href="" class="product">
+                <img src="https://target.scene7.com/is/image/Target/GUEST_e9c67d50-4cfc-4471-ab31-d6eae671bf85" alt=""
+                    srcset="">
+                <p class="price_tag">$15.00</p>
+
+                <p>Travel Pouch - A New <br>Day™ Black
+                </p>
+                <div class="button">
+                    Add to cart
+                </div>
+
+            </a><a href="" class="product">
+                <img src="https://target.scene7.com/is/image/Target/GUEST_013b5032-6e1f-47fa-af1f-992638edaf9f" alt=""
+                    srcset="">
+                <p class="price_tag">$39.00</p>
+
+                <p>Women's High-Rise <br>Pleat Front Straight
+                </p>
+                <div class="button">
+                    Add to cart
+                </div>
+
+            </a><a href="" class="product">
+                <img src="https://target.scene7.com/is/image/Target/GUEST_a0cdb343-dfb1-4c48-82d4-67b311c66db6" alt=""
+                    srcset="">
+                <p class="price_tag">$28.00</p>
+
+                <p>Women's High-Rise <br>Sailor Wide Leg Ankl...
+                </p>
+                <div class="button">
+                    Add to cart
+                </div>
+
+            </a>
+
+
+        </div>
+        <div class="gift_heading">
+            <h1>Give a little joy</h1>
+        </div>
+        <div class="new">
+            <div class="new_prod"><img
+                    src="https://target.scene7.com/is/image/Target/GUEST_74f412d9-354a-4b43-8f71-f8148a46ee12?fmt=webp&qlt=80&wid=400"
+                    alt="">
+                <div>New Top Toys of the season </div>
+                <p>Look no further, the most-wanted list is here. </p>
+            </div>
+            <div class="new_prod"><img
+                    src="https://target.scene7.com/is/image/Target/GUEST_ccdcf745-9359-4086-bc0a-31b089de9622?fmt=webp&qlt=80&wid=400"
+                    alt="">
+                <div>Best tech gifts of the season</div>
+                <p>Discover must-haves from Apple, Meta, Ring & <br>more.</p>
+            </div>
+            <div class="new_prod"><img
+                    src="https://target.scene7.com/is/image/Target/GUEST_6d859d8c-e27e-47fc-a633-35046af3a415?fmt=webp&qlt=80&wid=400"
+                    alt="">
+                <div>Gift ideas for everyone on <br>your list </div>
+                <p>Need a little inspo? Explore a curated list of great picks. </p>
+            </div>
+        </div>
+        <div class="title">
+            <h2>Featured categories</h2>
+            <a href="">Shop all</a>
+        </div>
+
+        <div class="browse_manual">
+            <div class="circle">
+                <div class="c_img c_imgb1">
+
+                </div>
+
+                <p>Halloween</p>
+            </div>
+            <div class="circle">
+                <div class="c_img c_imgb2">
+
+                </div>
+
+                <p>Christmas</p>
+            </div>
+            <div class="circle">
+                <div class="c_img c_imgb3">
+
+                </div>
+
+                <p>Women's</p>
+            </div>
+            <div class="circle">
+                <div class="c_img c_imgb4">
+
+                </div>
+
+                <p>Men's</p>
+            </div>
+            <div class="circle">
+                <div class="c_img c_imgb5">
+
+                </div>
+
+                <p>Kids'</p>
+            </div>
+            <div class="circle">
+                <div class="c_img c_imgb6">
+
+                </div>
+
+                <p>Baby</p>
+            </div>
+            <div class="circle">
+                <div class="c_img c_imgb7">
+
+                </div>
+
+                <p>Home</p>
+            </div>
+            <div class="circle">
+                <div class="c_img c_imgb8">
+
+                </div>
+
+
+                <p>Patio & Garden</p>
+            </div>
+            <div class="circle">
+                <div class="c_img c_imgb9">
+
+                </div>
+
+                <p>Kitchen & Dining</p>
+            </div>
+            <div class="circle">
+                <div class="c_img c_imgb10">
+
+                </div>
+
+                <p>Video Games</p>
+            </div>
+            <div class="circle">
+                <div class="c_img c_imgb11">
+
+                </div>
+
+                <p>Apple</p>
+            </div>
+            <div class="circle">
+                <div class="c_img c_imgb12">
+
+                </div>
+
+                <p>Toys</p>
+            </div>
+            <div class="circle">
+                <div class="c_img c_imgb13">
+
+                </div>
+
+                <p>Sports & Outdoors</p>
+            </div>
+            <div class="circle">
+                <div class="c_img c_imgb14">
+
+                </div>
+                <p>Grocery</p>
+            </div>
+            <div class="circle">
+                <div class="c_img c_imgb15">
+
+                </div>
+                <p>Beauty</p>
+            </div>
+            <div class="circle">
+                <div class="c_img c_imgb16">
+
+                </div>
+
+                <p>Household Essentials</p>
+            </div>
+            <div class="circle">
+                <div class="c_img c_imgb17">
+
+                </div>
+
+                <p>Pets</p>
+            </div>
+            <div class="circle">
+                <div class="c_img c_imgb18">
+
+                </div>
+
+                <p>Clearance</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="scan">
+        <span class="heading">The easiest way <br>to shop and save</span>
+        <br>
+        <span>Download the Target app & <br>get more Target in one place. </span>
+    </div>
+    <div class="foot_note">
+
+        <span>Get top deals, latest trends, and more.</span>
+
+        <input type="text" name="email" placeholder="Email address">
+        <div class="sign_up">
+            Sign up
+        </div>
+        <a href="">Privacy policy</a><i class="arrow_box bi bi-box-arrow-up-right"></i>
+
+    </div>
+    <div class="foot_note">
+        <sup>*</sup><div>See offer details.</div>
+        <p>Restrictions apply. Pricing, promotions and availability may vary by location and at Target.com
+        </p>
+    </div>
+    <footer>
+        <div class="foot_content">
+            <ol>
+                <li class="foot_tags">About Us</li>
+                <li>About Target</li>
+                <li>Careers</li>
+                <li>News & Blog</li>
+                <li>Target Brands</li>
+                <li>Bullseye Shop</li>
+                <li>Sustainability & Governance</li>
+                <li>Press Center</li>
+                <li>Advertise with Us</li>
+                <li>Investors</li>
+                <li>Affiliates & Partners</li>
+                <li>Suppliers</li>
+                <li>TargetPlus</li>
+            </ol>
+
+            <ol>
+                <li class="foot_tags">Target Help</li>
+                <li>Returns</li>
+                <li>Track Orders</li>
+                <li>Recalls</li>
+                <li>Contact Us</li>
+                <li>Accessibility</li>
+                <li>Security & Fraud</li>
+                <li>Team Member Services</li>
+            </ol>
+            <ol>
+                <li class="foot_tags">Stores</li>
+                <li><img src="https://www.target.com/icons/light/StoreAvailability.svg" alt=""> Find a Store</li>
+                <li><img src="https://target.scene7.com/is/content/Target/GUEST_adf88fa5-9437-443e-8ddd-674dde6c3a82"
+                        alt="">Clinic</li>
+                <li><img src="https://target.scene7.com/is/content/Target/GUEST_adf88fa5-9437-443e-8ddd-674dde6c3a82"
+                        alt="">Pharmacy</li>
+                <li><img src="https://target.scene7.com/is/content/Target/GUEST_1e7d1a3c-3927-49e3-8ef7-bac2397fb36c"
+                        alt="">Optical</li>
+                <li>More In-Store Services</li>
+            </ol>
+            <ol>
+                <li class="foot_tags">Services</li>
+                <li><img src="https://www.target.com/icons/light/Circle.svg" alt="">Target Circle™</li>
+                <li><img src="https://www.target.com/icons/light/CircleCardPillar.svg" alt="">Target Circle™ Card</li>
+                <li><img src="https://www.target.com/icons/light/Circle360Pillar.svg" alt="">Target Circle 360™</li>
+                <li><img src="https://target.scene7.com/is/content/Target/GUEST_77400a3e-7081-4c52-8feb-7126a78353e1"
+                        alt="">Target App</li>
+                <li><img src="https://www.target.com/icons/light/Registry.svg" alt="">Registry</li>
+                <li><img src="https://www.target.com/icons/light/SameDay.svg" alt="">Same Day Delivery</li>
+                <li><img src="https://www.target.com/icons/light/OrderPickup.svg" alt="">Order Pickup</li>
+                <li><img src="https://www.target.com/icons/light/DriveUp.svg" alt="">Drive Up</li>
+                <li><img src="https://www.target.com/icons/light/TwoDayShipping.svg" alt="">Free 2-Day Shipping</li>
+                <li><img src="https://www.target.com/icons/light/Ship.svg" alt="">Shipping & Delivery</li>
+                <li>More Services</li>
+            </ol>
+        </div>
+        <img src="https://target.scene7.com/is/content/Target/GUEST_ca8f1d56-9000-4407-be78-2c33be983dab" alt=""
+            srcset="">
+    </footer>
+</body>
+
+</html>
